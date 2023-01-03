@@ -6,7 +6,7 @@
     find out by using it
 
 ## How to install ?
-> cd && git clone "path" && bash ./the_usfull_app/install.sh
+> cd && git clone "https://github.com/Mohamaedbenk/42_helper" && bash ./42_helper/install.sh
 1. First: Run command above in your `shell`.
 1. Second: `don't follow this step if you dont want watchmp`</br>
 <sub>(this step may be kind of tedious, so please don't hesitate to contact me)</sub></br>

@@ -14,11 +14,12 @@ echo -e "            $Cyan please wait a sec for installation to finish ;)"
 echo -e "          if u have any problem in installation please contact me,"
 echo -e "                       I'll be happy to help u;)\n $NC"
 
-pip install -r requirements.txt
+pip install -r ./42_helper/requirements.txt
 
-echo "alias quote='python3 ~/the_usefull_app/quote.py'
-alias watchmp='python3 ~/the_usefull_app/quote.py'
-alias cluster='python3 ~/the_usefull_app/cluster.py'" >> ~/.zshrc
+echo "alias quote='python3 ~/42_helper/quote.py'
+alias watchmp='python3 ~/42_helper/watch_my_post.py'
+alias gwatchmp='python3 ~/42_helper/WMP_gui/main.py'
+alias cluster='python3 ~/42_helper/cluster.py'" >> ~/.zshrc
 
 echo -e "\n            $Green Command added: quote watchmp cluster\n"
 echo -e "$Cyan Note: to be able to use watchmp please make to update config.py with your data"
