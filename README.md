@@ -25,9 +25,10 @@ Run `watchmp (post1) (post2) (post3 ...)` to get notified when post is empty</br
 Run `gwatchmp (post1) (post2) (post3 ...)` same as `watchmp` but uses GUI and support msg notification</br>
 
 ## Screenshots
-
-<!-- <img src="https://github.com/su-omb/Cleaner_42/blob/master/cclean.png" width="800" />
-<img src="https://github.com/su-omb/Cleaner_42/blob/master/cclean_update.png" width="800" /> -->
+<h3>Installation Overview:</h3>
+<img src="./Images/installation_script.png" width="800" style="padding:15px" />
+<h3>`gwatchmp` Overview:</h3>
+<img src="./Images/wmpGUI.png" width="400" style="padding:15px"/>
 
 
 ## Note : 
