@@ -1,5 +1,7 @@
 import os
+import sys
 from twilio.rest import Client
+sys.path.insert(1, os.path.dirname(__file__)+'/..')
 from config import _twilio
 
 

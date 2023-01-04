@@ -3,7 +3,7 @@ import requests
 import os
 import json
 import sys
-sys.path.insert(1, './Utils')
+sys.path.insert(1, os.path.dirname(__file__)+'/Utils')
 from notify import notify, bc
 from config import cookies, headers
 

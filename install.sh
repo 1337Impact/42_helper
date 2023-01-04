@@ -21,7 +21,7 @@ alias watchmp='python3 ~/42_helper/watch_my_post.py'
 alias gwatchmp='python3 ~/42_helper/WMP_gui/main.py'
 alias cluster='python3 ~/42_helper/cluster.py'" >> ~/.zshrc
 
-echo -e "\n            $Green Command added: quote watchmp cluster\n"
-echo -e "$Cyan Note: to be able to use watchmp please make to update config.py with your data"
-echo "for more info, read README.md "
+echo -e "\n            $Green Command added: watchmp gwatchmp quote cluster\n"
+echo -e "$Cyan Note: to be able to use watchmp please make to update ~/42_helper/config.py with your data"
+echo "for more info, checkout README.md "
 echo -e "\n                $Red contact me if you need help ;)$NC"

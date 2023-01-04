@@ -1,8 +1,8 @@
 import requests
 import json
 import sys
-sys.path.insert(1, '../Utils')
-sys.path.insert(2,'../')
+import os
+sys.path.insert(1, os.path.dirname(__file__)+'/../Utils')
 from notify import notify
 from msg_sender import send_message
 
