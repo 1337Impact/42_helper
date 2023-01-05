@@ -29,7 +29,7 @@ then
 	sleep 0.5
 else
 	sleep 0.5
-	echo "alias cclean='python3 ~/42_helper/optimized_cclean.py'
+	echo "alias cclean='bash ~/42_helper/optimized_cclean.sh'
 alias quote='python3 ~/42_helper/quote.py'
 alias watchmp='python3 ~/42_helper/watch_my_post.py'
 alias gwatchmp='python3 ~/42_helper/WMP_gui/main.py'
