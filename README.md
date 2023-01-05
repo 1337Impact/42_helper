@@ -19,6 +19,7 @@ step 5: Go to https://curlconverter.com/ and past data -> chose python -> copy (
 4. fourth: Enjoy ;)
 
 ## How to use ?
+Run `cclean` just like old cclean but better (3x times faster than old cclean) </br>
 Run `quote` to get a random quote when you need it </br>
 Run `cluster` to open a cluster in new tap</br>
 Run `watchmp (post1) (post2) (post3 ...)` to get notified when post is empty</br>

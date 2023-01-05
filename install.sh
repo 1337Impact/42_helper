@@ -29,13 +29,14 @@ then
 	sleep 0.5
 else
 	sleep 0.5
-    echo "alias quote='python3 ~/42_helper/quote.py'
+	echo "alias cclean='python3 ~/42_helper/optimized_cclean.py'
+alias quote='python3 ~/42_helper/quote.py'
 alias watchmp='python3 ~/42_helper/watch_my_post.py'
 alias gwatchmp='python3 ~/42_helper/WMP_gui/main.py'
 alias cluster='python3 ~/42_helper/cluster.py'" >> $shell_f
 fi
 
-echo -e "\n            $Green Command added: watchmp gwatchmp quote cluster\n"
+echo -e "\n            $Green Command added: watchmp gwatchmp quote cluster cclean\n"
 echo -e "$Cyan Note: to be able to use watchmp please make to update ~/42_helper/config.py with your data"
 echo "for more info, checkout README.md "
 echo -e "\n                $Red contact me if you need help ;)$NC"
